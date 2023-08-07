@@ -299,7 +299,7 @@ export const createComment = async(id, comment) => {
     };
 
     try {
-        await api.post(`http://127.0.0.1:8000/scheduler/api/v1/comment`, data, {
+        await api.post(`/scheduler/api/v1/comment`, data, {
             headers: {
                 Authorization: `Bearer ${store.getState()?.auth?.access}`
             }
@@ -314,7 +314,7 @@ export const editComments = async(id, comment) => {
         message: comment
     };
     try {
-        await api.put(`http://127.0.0.1:8000/scheduler/api/v1/comment/${id}`, data, {
+        await api.put(`/scheduler/api/v1/comment/${id}`, data, {
             headers: {
                 Authorization: `Bearer ${store.getState()?.auth?.access}`
             }
@@ -327,7 +327,7 @@ export const editComments = async(id, comment) => {
 
 export const deleteComments = async(id) => {
     try {
-        await api.delete(`http://127.0.0.1:8000/scheduler/api/v1/comment/${id}`, {
+        await api.delete(`/scheduler/api/v1/comment/${id}`, {
             headers: {
                 Authorization: `Bearer ${store.getState()?.auth?.access}`
             }

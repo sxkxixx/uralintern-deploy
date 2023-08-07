@@ -33,7 +33,7 @@ DEBUG = os.getenv('DEBUG')
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split()
 
-PRIMARY_HOST = 'http://127.0.0.1:8000'
+PRIMARY_HOST = os.getenv('PRIMARY_HOST')
 
 # Application definition
 

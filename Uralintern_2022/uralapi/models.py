@@ -249,16 +249,14 @@ def post_save_user(sender, instance, *args, **kwargs):
 
 @receiver(reset_password_token_created)
 def password_reset_token_created(sender, instance, reset_password_token, *args, **kwargs):
-
-    email_plaintext_message = "{}?token={}".format(reverse('password_reset:reset-password-confirm'), reset_password_token.key)
-
+    # email_plaintext_message = "{}?token={}".format(reverse('password_reset:reset-password-confirm'), reset_password_token.key)
     send_mail(
         # title:
         "Сброс пароля для сайта UralIntern: Личный кабинет стажёра",
         # message:
         f"Здравствуйте! \n"
         f"На сайте \"UralIntern: Личный кабинет стажёра\" был сделан запрос на восстановление пароля к вашей учётной записи, "
-        f"чтобы восстановить пароль вам потребуется перейти по данной ссылке {settings.PRIMARY_HOST}{email_plaintext_message}. \n"
+        f"чтобы восстановить пароль вам потребуется перейти по данной ссылке {settings.PRIMARY_HOST}/password_reset/confirm/?token={reset_password_token.key}. \n"
         f"Если вы не просили сбросить пароль, вы можете спокойно проигнорировать это письмо. "
         f"Будьте уверены, что ваш аккаунт в безопасности.",
         # from:

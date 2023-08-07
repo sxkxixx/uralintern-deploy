@@ -1,0 +1,172 @@
+.enter-form{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    background: #EDEDED;
+    border-radius: 15px;
+    width: 410px;
+    margin-bottom:189px;
+
+}
+
+.head-form{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.enter{
+    margin-top: 25px;
+    margin-left: 41px;
+    font-size: 24px;
+}
+
+.registr{
+    margin-top: 25px;
+    font-size: 24px;
+    margin-left: 34px;
+}
+
+
+.enter:hover, .registr:hover{
+    cursor: pointer;
+}
+
+.enter:active, .registr:active{
+    font-weight: 700;
+
+}
+
+.cross{
+    position: absolute;
+    top: 18px;
+    right:15px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+
+.cross:hover{
+    cursor: pointer;
+    background-color: #cfcccc;
+}
+
+.selected{
+    font-weight: 700;
+}
+
+
+.fields{
+    margin-top: 27.46px;
+    margin-left: 34px;
+}
+
+.fields input{
+    background: #FFFFFF;
+    border-radius: 15px;
+    width: 300px;
+    height: 42px;
+    margin-bottom: 15px;
+    border:none;
+    padding: 0 22px;
+
+}
+
+.button{
+    margin-top: 33px
+}
+
+.enter-button{
+    margin-bottom: 36px;
+    margin-left: 99px;
+    background: #F57C00;
+    border-radius: 12px;
+    width: 211px;
+    height: 38px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    border:none;
+    cursor: pointer;
+}
+
+.enter-button:hover{
+    background-color: #F9A425;
+}
+
+.enter-button:active{
+    cursor: pointer;
+    background-color: #E86A00;
+}
+
+
+.main-footer{
+    background: #303030;
+    color:#EBC71D;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    position: absolute;
+    width:100%;
+
+    display:flex;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.reset {
+    margin-top: 25px;
+    margin-left: 41px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.password-reset {
+    text-decoration: none;
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 9px;
+}
+
+.reset-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 23px auto 10px;
+    max-width: 338px;
+}
+
+.wing {
+    display: block;
+    margin: 37px auto 56px;
+}
+
+.reset-is-blocked {
+    color: #f33d3d;
+}
+
+.reset-button-disabled {
+    cursor: default;
+    opacity: .3;
+    pointer-events: none;
+}
+
+.password-reseted {
+    text-decoration: none;
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 9px;
+}

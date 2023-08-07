@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #F5F5F5;
+    font-family: Roboto;
+    color: #000000;
+    line-height:18px;
+}
+
+.main-header{
+    background: #303030;
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    height:60px;
+    width:100%;
+    display:flex;
+}
+.nav-icon{
+    margin-left:22px;
+    margin-top:19px;
+}
+.small-logo{
+    margin-left:11px;
+    margin-top:7px;
+
+}
+.profile{
+    display:flex;
+    margin-right:auto;;
+}
+
+.profile img{
+    margin-top:19px;
+    margin-left: 47px;
+}
+
+.profile p{
+    margin-left:15px;
+    margin-top:22px;
+}
+.settings-icon{
+    margin-right:15px;
+    margin-top:15px;
+}
+
+.exit{
+    display:flex;
+    margin-right:30px;
+}
+
+.exit img{
+    margin-top:19px;
+    margin-right: 9px;
+}
+
+.exit p{
+    margin-top:22px;
+}
+
+
+main{
+    display:flex;
+}
+
+
+.navigation{
+    width:224px;
+    margin-top:53px;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    align-items: center;
+}
+
+.navigation h2{
+    font-size: 22px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding-top:29px;
+    padding-left:16px;
+    font-weight: 400;
+
+}
+
+
+.name-role{
+    height:47px;
+    background: #F9EFE5;;
+    color: #F57C00;
+    font-size: 22px;
+    line-height: 30px;
+
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.name-role-value{
+    height:170px;
+    text-align: center;
+    padding-top:30px;
+}
+
+.roles ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    padding-bottom:100px;
+
+}
+.roles li p{
+    text-align: center;
+    margin-bottom:3px;
+}
+.stages-main{
+    margin-left: 108px;
+}
+
+.stages-info{
+    margin-top: 53px;
+}
+
+.stages-main h2{
+    margin-left: 381px;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.info{
+    margin-top:29.69px;
+}
+
+.info p{
+margin-top: 9px;
+font-weight: 500;
+font-size: 18px;
+}
+
+table{
+    margin-top: 30px;
+    display:block;
+}
+
+.command-info-person-head{
+    display: flex;
+    background: rgba(249, 239, 229, 0.6);
+    border-radius: 10px 10px 0px 0px;
+    width: 848px
+    height: 48.07px;
+    align-items: center;
+    color: #F57C00;
+    font-weight: 400;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.command-info-person{
+    margin-top: 8px;
+    display:flex;
+    margin-bottom:8px;
+    text-align: center;
+    align-items: center;
+    background: rgba(240, 240, 240, 0.4);
+    border-radius: 5px;
+    width: 846.26px;
+    height: 108px;
+ }
+
+.main-ul{
+    background: rgba(255, 255, 255, 0.4);
+    border-width: 0px 2px 2px 2px;
+    border-style: solid;
+    border-color: #E1E1E1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.number{
+    width:130px;
+    text-align: center;
+    align-items: center;
+}
+.name{
+    width:170px;
+    text-align: center;
+    align-items: center;
+}
+
+.date-start-end{
+width:164px;
+    text-align: center;
+    align-items: center;
+}
+
+.date{
+width:168px;
+    text-align: center;
+    align-items: center;
+}
+
+.status{
+    width:200px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.criteria{
+    width: 100px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #BCBCBC;
+    border-radius: 30px;
+    border:none;
+}
+.link-pen{
+    margin-top: 14.3px;
+}
+
+.stage-create{
+    margin-top: 52px;
+    margin-left:333.13px;
+    margin-bottom: 114px;
+    width: 220px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+.hidden-nav{
+    display: none;
+}
+
+.stage-create-form{
+    position: absolute;
+    background: #303030;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 377px;
+    width: 502px;
+    color: #FDFDFF;
+}
+
+.stage-create-form img{
+    margin-top: 19.66px;
+    margin-left: 453.66px;
+}
+
+.stage-create-form h2{
+    margin-left: 163px;
+    margin-top: -8px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.fields{
+    margin-left: 51px;
+    margin-top: 31px;
+}
+
+.fields div{
+    margin-bottom: 16px;
+}
+.fields p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.fields input{
+    background: #FDFDFF;
+    border-radius: 10px;
+    width: 356px;
+    height: 38px;
+    padding: 0 22px;
+}
+
+.one-selector{
+background: #FDFDFF;
+border-radius: 10px;
+width: 400px;
+height: 38px;
+padding: 0 22px;
+
+}
+
+.multiple-selector{
+    background: #FDFDFF;
+border-radius: 10px;
+width: 400px;
+height: 100px;
+padding: 0 22px;
+padding-top: 5px;
+}
+
+.button-create{
+    display: flex;
+    margin-top: 66px;
+    margin-bottom: 47px;
+}
+
+.create{
+    background: #FDFDFF;
+    border-radius: 30px;
+    width: 191px;
+    height: 40px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 51px;
+    border:none;
+}
+
+.cancel{
+    background: #FDFDFF;
+    border-radius: 30px;
+    width: 191px;
+    height: 40px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 18px;
+    border:none;
+}

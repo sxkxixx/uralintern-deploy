@@ -1,0 +1,265 @@
+body{
+    background: #F5F5F5;
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 16px;
+    line-height:18px;
+
+    margin:0;
+}
+
+
+.main-header{
+    background: #303030;  
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    height:60px;
+    width:100%;
+    display:flex;
+}
+.nav-icon{
+    margin-left:22px;
+    margin-top:19px;
+}
+.small-logo{
+    margin-left:11px;
+    margin-top:7px;
+    
+}
+.profile{
+    display:flex;
+    margin-right:auto;
+    margin-left: 47px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+.profile:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+
+.profile img{
+    margin-top:19px;
+   
+}
+
+.profile p{
+    margin-left:15px;
+    margin-top:22px;
+}
+.settings-icon{
+    margin-right:15px;
+    margin-top:15px;
+}
+
+.exit{
+    display:flex;
+    margin-right:30px;
+}
+
+.exit img{
+    margin-top:19px;
+    margin-right: 9px;
+}
+
+.exit p{
+    margin-top:22px;
+}
+
+.exit:hover{
+    background-color: red;
+}
+
+
+
+
+
+main{
+    display:flex;
+}
+.forms{
+    width:391px;
+    margin: 0 auto;
+    margin-top:53px;
+}
+
+.forms h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 18px;
+    margin-top:0;
+    align-items: center;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+.forms p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    
+}
+
+
+.forms .command{
+    align-items: center;
+    margin-bottom:19px;
+    font-weight: 600;
+}
+.command span{
+    font-weight: 400;
+}
+
+.forms .numbers{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 36px;
+
+}
+
+.mark-form p{
+    font-size: 20px;
+    line-height: 18px;
+}
+
+.choosing{
+    font-size: 20px;
+    line-height: 18px;
+
+    margin-bottom:18px;
+    display: block;
+    text-align: center;
+}
+
+#form-selector{
+    width: 350px;
+    height: 35px;
+    background: rgba(240, 240, 240, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border:none;
+
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+
+    display:block;
+    margin:0 auto;
+    margin-bottom:18px;
+    
+
+}
+.criteria-group{
+    display:flex;
+}
+
+.criteria{
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom:5px;
+    align-items: center;
+}
+
+/*.criteria:first-child{
+    margin-top:25px;
+}
+
+.criteria span{
+    margin-right:auto;
+}*/
+
+.numbers{
+    margin-left:auto;
+}
+.criteria span{
+    margin-left:18px;
+}
+
+
+.radio-bitton{
+    background: #FFFFFF;
+    border: 2px solid #F57C00;
+}
+
+.give-a-mark{
+    width: 160px;
+    height: 40px;
+
+    background: #F57C00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border:none;
+
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    display:block;
+    margin:0 auto;
+    margin-top:40px;
+}
+
+
+
+
+.navigation{
+    width:224px;
+    margin-top:53px;
+    font-size: 22px;
+    line-height: 30px; 
+    font-weight: 300;
+    align-items: center;
+}
+
+.navigation h2{
+    font-size: 22px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding-top:29px;
+    padding-left:16px;
+    font-weight: 400;
+    
+}
+
+
+.name-role{
+    height:47px;
+    background: #F9EFE5;;
+    color: #F57C00;
+    font-size: 22px;
+    line-height: 30px;
+
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.name-role-value{
+    height:170px;
+    text-align: center;
+    padding-top:30px;
+}
+
+.roles ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    padding-bottom:100px;
+
+}
+.roles li p{
+    text-align: center;
+    margin-bottom:3px;
+}
+.hidden-nav{
+    display: none;
+}

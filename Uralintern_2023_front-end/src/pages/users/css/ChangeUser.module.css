@@ -1,0 +1,199 @@
+.profile-info{
+    width: 613px;
+    margin: 0 auto;
+    margin-top:53px;
+    margin-bottom: 53px;
+}
+
+.main-profile img{
+    border-radius: 80px;
+    display: block;
+    margin-left:197px;
+    margin-right:auto;
+    margin-bottom:27px;
+}
+
+
+
+.main-profile h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 18px;
+    margin-left:195px;
+    margin-top:0;
+    margin-bottom:52px;
+}
+
+.photo{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left:64px;
+    width:400px;
+}
+.photo_edit{
+    background: #FFFFFF;
+    border: 1px solid #F57C00;
+    border-radius: 30px;
+    text-align: center;
+    color: #F57C00;
+    width: 160px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.photo_del{
+    text-align: center;
+    color: #F57C00;
+    margin-bottom: 39px;
+}
+.education-h{
+    margin-left:198px;
+}
+.contact-h{
+    margin-left:214px;
+    margin-top:13px;
+}
+
+.inp-container{
+    display:grid;
+    grid-template-columns:220px 190px 100px 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color:black;
+    margin-bottom:12px;
+    font-weight: 400;
+    margin-left:40px;
+}
+
+
+.line-container{
+    display:grid;
+    grid-template-columns:220px 190px 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color:black;
+    margin-left:40px;
+    margin-bottom:12px;
+    font-weight: 400;
+}
+
+
+.inp{
+   background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    width: 250px;
+    height: 20px;
+    color: #F57C00;
+}
+
+.profile-info h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top:0;
+}
+
+.inf{
+    margin-left:auto;
+    color: #F57C00;
+}
+
+
+.input__wrapper {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    text-align: center;
+  }
+
+.input__file {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.input__file-button {
+    background: #FFFFFF;
+    position: relative;
+    display: block;
+    border: 1px solid #F57C00;
+    border-radius: 30px;
+    text-align: center;
+    color: #F57C00;
+    width: 160px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.input__file-button-text {
+    margin: 0 auto;
+    line-height: 1;
+    margin-top: 1px;
+}
+
+
+.input__file-button:hover{
+
+    cursor: pointer;
+    background: #F9A425;
+    color: white;
+    
+}
+
+.input__file-button:active{
+    background: #F57C00;
+    color: white;
+}
+
+
+.photo_del:hover{
+    cursor: pointer;
+    color: #f5a14e;
+}
+.photo_del:active{
+    color: #F57C00;
+}
+
+
+
+.yes,.cancel,.pen{
+    width: 16px;
+    height: 16px;
+    margin-left:auto;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+
+.pen:hover, .cancel:hover{
+    cursor: pointer;
+    background-color: #E4E4E4;
+}
+
+.pen:active, .cancel:active{
+    background-color: #CACACA;
+}
+
+
+.yes:hover{
+    background-color: rgba(249, 164, 37, 0.4);
+    cursor: pointer;
+}
+.yes:active{
+    background-color: rgba(249, 164, 37, 0.6);
+}
+
+
+

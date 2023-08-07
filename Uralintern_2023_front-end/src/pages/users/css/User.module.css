@@ -1,0 +1,90 @@
+.profile-info{
+    width: 613px;
+    margin: auto auto;
+    margin-left: calc(50% - 307px);
+    margin-top:53px;
+    margin-bottom: 143px;
+}
+
+/*input{
+    width: 237px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+
+    color: #F57C00;
+    margin-left:80px;
+    margin-bottom:2px;
+}*/
+
+.main-profile h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 18px;
+    margin-left:207px;
+    margin-top:0;
+    margin-bottom:52px;
+}
+.main-profile img{
+    border-radius: 80px;
+    display: block;
+    margin-left:197px;
+    margin-right:auto;
+    margin-bottom:27px;
+}
+
+.fio-email{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    margin-left:64px;
+    width:400px;
+}
+.fio{
+    text-align: center;
+}
+.email{
+    margin-top:-25px;
+    text-align: center;
+}
+.education-h{
+    margin-left:198px;
+}
+.contact-h{
+    margin-left:214px;
+    margin-top:13px;
+}
+
+
+.profile-info h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top:0;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns:211px 211px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color:black;
+
+    margin-left:40px;
+    width:491px;
+}
+.grid-container div{
+    padding:0 10px;
+    margin-bottom:12px;
+    font-weight: 400;
+}
+.inf{
+
+    margin-left:auto;
+    color: #F57C00;
+}

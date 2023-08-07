@@ -1,0 +1,154 @@
+.main{
+    display: flex;
+}
+
+.project{
+    margin-top: 53px;
+    margin-left: calc(50% - 334px)
+}
+
+.project-info h2 {
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: calc(50% - 170px);
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.info {
+    margin-top: 37px;
+    font-size: 18px;
+}
+
+.info p{
+    font-weight: 400;
+    height: 18px;
+}
+
+.statistics-and-link {
+    margin-top:15px;
+    font-weight: 500;
+    display:flex;
+
+}
+
+
+
+.statistics-and-link p{
+    font-size: 18px;
+    margin-top:2px;
+    margin-bottom: 0;
+    
+}
+
+.link{
+    margin-left: 6px;
+}
+
+.team-list{
+    margin-top: 31px;
+    margin-left: 230px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.table{
+    margin-top: 34px;
+    display:block;
+}
+
+.command-info-person-head{
+    display: flex;
+    background: rgba(249, 239, 229, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px 0px 0px 0px;
+    width: 626px;
+    height: 33px;
+    align-items: center;
+    color: #F57C00;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.command-info-person{
+    margin-top: 7px;
+    display:flex;
+    margin-bottom:7px;
+    text-align: center;
+    align-items: center;
+    background: rgba(240, 240, 240, 0.4);
+    border-radius: 0px 0px 0px 4px;
+    height: 37px;
+    width: 626px;
+ }
+
+.main-ul{
+    padding: 0;
+    background: rgba(255, 255, 255, 0.4);
+    border-width: 0px 2px 2px 2px;
+    border-style: solid;
+    border-color: #E1E1E1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.team-head{
+    width:330px;
+    text-align: center;
+    align-items: center;
+}
+
+.tutor-head{
+    width:246px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.button{
+    display: flex;
+    margin-top: 52px;
+    margin-left:203.5px;
+}
+
+.team-create{
+    width: 220px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+
+.team-create:hover{
+    cursor: pointer;
+}
+
+.pen, .cancel{
+    width: 16px;
+    height: 16px;
+    margin-left:auto;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+
+.pen:hover, .cancel:hover{
+    cursor: pointer;
+    background-color: #E4E4E4;
+}
+
+.pen:active, .cancel:active{
+    background-color: #CACACA;
+}
+
+
+.statistics-and-link:hover{
+    cursor: pointer;
+    color: rgba(249, 164, 37, 0.6);
+    
+}

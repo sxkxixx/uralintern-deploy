@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Marks forms</title>
+    <link href="css/forms.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <img class='nav-icon' src="images/nav-icon.svg" width="24" height="24" alt="Иконка навигации">
+        <img class='small-logo' src="images/logo_small.svg" width="48" height="48.18" alt="Логотип">
+        <div class="profile">
+            <img src="images/profile.svg" width="24" height="24" alt="Мой профиль">
+            <p>Мой Профиль</p>
+        </div>
+        <img class='settings-icon' src="images/settings-icon.svg" width="32" height="32" alt="Логотип">
+        <div class="exit">
+            <img src="images/exit.svg" width="24" height="24" alt="Выйти">
+            <p>Выйти</p>
+        </div>
+    </header>
+    <div class="mean">
+        <div class="mean-name">Командность</div>
+        <ul class="mean-data">
+            <li>
+                <div class="mean-description">
+                    <h2>Описание</h2>
+                    <p>Соблюдение сроков. Вовремя приходит на мероприятия. Соблюдение правил работы, требований. Держит слово</p>
+                </div>
+                <div class="mean-value">
+                    <h2>Значения шкалы</h2>
+                    <select class="one-selector" name="mean-selector" id="mean-selector">
+                        <option value="1">-1</option>
+                        <option value="2">0</option>
+                        <option value="3">1</option>
+                        <option value="4">2</option>
+                        <option value="5">3</option>
+                  </select>
+                    <p>Сроки не соблюдаются. Требования, правила нарушаются.</p>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    <main>
+        <div class="navigation">
+            <div class="roles">
+                <div class="name-role supervisor">Руководитель</div>
+                <div class="name-role-value">Нет доступа</div>
+            </div>
+            <div class="roles">
+                <div class="name-role curator">Я - куратор</div>
+                <ul>
+                    <li>
+                        <p>Команда 1</p>
+                    </li>
+                    <li>
+                        <p>Команда n</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="roles">
+                <div class="name-role intern">Я - стажёр</div>
+                <ul>
+                    <li>
+                        <p>Команда 1</p>
+                    </li>
+                    <li>
+                        <p>Команда n</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="forms">
+            <h2>Оценка по этапам</h2>
+            <p class="info command">Проект: <span>нет данных</span></p>
+            <p class="info command">Команда: <span>нет данных</span></p>
+            <p class="info command">Окончание оценки этапа: <span>нет данных</span></p>
+            <form class='mark-form' action="" method="post">
+                <label class="form-selector">
+                    <span class="choosing">Выберите этап:</span>
+                    <select id="form-selector" name="form-selector">
+                        <option value="1">1.Анализ, подготовка ТЗ</option>
+                        <option value="2">2.Обсуждение</option>
+                        <option value="3">3.Тестирование формы оценки</option>
+                    </select>
+                </label>
+                <br>
+                <label class="form-selector">
+                    <span class="choosing">Выберите стажёра:</span>
+                    <select id="form-selector" name="form-selector">
+                        <option value="1">Ваганова Ангелина Владимировна</option>
+                        <option value="2">Деньшик Дарья Дмитриевна</option>
+                        <option value="3">Хмелёва Виктория Сергеевна</option>
+                    </select>
+                </label>
+                
+                <div class="criteria-group">
+                    <div class='criteria'><img src="images/question_mark.svg" width="20" height="20"><span>Командность:</span></div>
+                    <div class="numbers">
+                        <label>    
+                            <input id="radio-button1" name="command-mark" class="radio-button" type="radio" value="-1" checked>
+                            -1
+                        </label>
+                        <label>
+                            <input id="radio-button2" name="command-mark" class="radio-button" type="radio" value="0" checked>
+                            0
+                        </label>
+                        <label>
+                            <input id="radio-button3" name="command-mark" class="radio-button" type="radio" value="1">
+                            1
+                        </label>
+                        <label>
+                            <input id="radio-button4" name="command-mark" class="radio-button" type="radio" value="2">
+                            2
+                        </label>
+                        <label>
+                            <input id="radio-button5" name="command-mark" class="radio-button" type="radio" value="3">
+                            3
+                        </label>
+                    </div>
+                </div>
+            
+                
+                <div class="criteria-group">
+                    <div class='criteria'><img src="images/question_mark.svg" width="20" height="20"><span>Обучаемость:</span></div>
+                    <div class="numbers">
+                        <label>    
+                            <input id="radio-button1" name="study-mark" class="radio-button" type="radio" value="-1">
+                            -1
+                        </label>
+                        <label>
+                            <input id="radio-button2" name="study-mark" class="radio-button" type="radio" value="0" checked>
+                            0
+                        </label>
+                        <label>
+                            <input id="radio-button3" name="study-mark" class="radio-button" type="radio" value="1">
+                            1
+                        </label>
+                        <label>
+                            <input id="radio-button4" name="study-mark" class="radio-button" type="radio" value="2">
+                            2
+                        </label>
+                        <label>
+                            <input id="radio-button5" name="study-mark" class="radio-button" type="radio" value="3">
+                            3
+                        </label>
+                    </div>
+                </div>
+
+                <div class="criteria-group">
+                    <div class='criteria'><img src="images/question_mark.svg" width="20" height="20"><span>Организованность:</span></div>
+                    <div class="numbers">
+                        <label>    
+                            <input id="radio-button1" name="organization-mark" class="radio-button" type="radio" value="-1" >
+                            -1
+                        </label>
+                        <label>
+                            <input id="radio-button2" name="organization-mark" class="radio-button" type="radio" value="0" checked>
+                            0
+                        </label>
+                        <label>
+                            <input id="radio-button3" name="organization-mark" class="radio-button" type="radio" value="1">
+                            1
+                        </label>
+                        <label>
+                            <input id="radio-button4" name="organization-mark" class="radio-button" type="radio" value="2">
+                            2
+                        </label>
+                        <label>
+                            <input id="radio-button5" name="organization-mark" class="radio-button" type="radio" value="3">
+                            3
+                        </label>
+                    </div>
+                </div>
+                <input type="submit" class='give-a-mark' value="Оценить">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trainee-statistics</title>
+    <link href="css/trainee-statistics.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <img class='nav-icon' src="images/nav-icon.svg" width="24" height="24" alt="Иконка навигации">
+        <img class='small-logo' src="images/logo_small.svg" width="48" height="48.18" alt="Логотип">
+        <div class="profile">
+            <img src="images/profile.svg" width="24" height="24" alt="Мой профиль">
+            <p>Мой Профиль</p>
+        </div>
+        <img class='settings-icon' src="images/settings-icon.svg" width="32" height="32" alt="Логотип">
+        <div class="exit">
+            <img src="images/exit.svg" width="24" height="24" alt="Выйти">
+            <p>Выйти</p>
+        </div>
+    </header>
+</body>
+<main>
+    <div class="navigation">
+            <div class="roles">
+                <div class="name-role supervisor">Руководитель</div>
+                <div class="name-role-value">Нет доступа</div>
+            </div>
+            <div class="roles">
+                <div class="name-role curator">Я - куратор</div>
+                <ul>
+                    <li>
+                        <p>Команда 1</p>
+                    </li>
+                    <li>
+                        <p>Команда n</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="roles">
+                <div class="name-role intern">Я - стажёр</div>
+                <ul>
+                    <li>
+                        <p>Команда 1</p>
+                    </li>
+                    <li>
+                        <p>Команда n</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <div class="search-main">
+    <h2>Статистика моих стажёров</h2>
+        <div class="search">
+            <div class="search-trainee">
+                <input type="text" placeholder="Искать стажёра...">
+                <img src="images/find.svg" width="12.65" height="12.65" alt="поиск">
+            </div>
+            <div class="filter-sort">
+                <img src="images/filter.svg" width="13.33" height="13.33" alt="фильтр">
+            </div>
+            <div class="filter-sort">
+                <img src="images/sort.svg" width="13.34" height="13.34" alt="фильтр">
+            </div>
+        </div>
+        <div class="data">
+            <ul class="main-ul">
+                        <li class='command-info-person-head'>
+                                <div class="empty photo"></div>
+                                <div class="text fio">ФИО</div>
+                                <div class="text role">Роль</div>
+                                <div class="text team">Команда</div>
+                                <div class="text criteria">Баллы по кртериям</div>
+                        </li>
+                        <li class='command-info-person'>
+                            <div class="photo">
+                                <img src="images/avatar.png" width="40" height="44">
+                            </div>
+                            <div class="text fio">Фамилия Имя Отчество</div>
+                            <div class="text role">Дизайнер</div>
+                            <div class="text team">Команда</div>
+                            <div class="text criteria">Просмотреть
+                                 <img src="images/eye-close.svg" width="14.35" height="10.35">
+                            </div>
+                        </li>
+              <table>
+                        <tr>
+                            <th>Критерий</th>
+                            <th>Оценка</th>
+                        </tr>
+                        <tr>
+                            <td class="criteria2">Командность</th>
+                            <td class="mark">2</th>
+                        </tr>
+                        <tr>
+                            <td class="criteria2">Вовлеченность</th>
+                            <td class="mark">1</th>
+                        </tr>
+                    </table>
+                        <li class='command-info-person'>
+                            <div class="photo">
+                                <img src="images/avatar.png" width="40" height="44">
+                            </div>
+                            <div class="text fio">Фамилия Имя Отчество</div>
+                            <div class="text role">Дизайнер</div>
+                            <div class="text team">Команда</div>
+                            <div class="text criteria">Просмотреть
+                                 <img src="images/eye.svg" width="14.35" height="10.35">
+                            </div>
+                        </li>
+            </ul>
+        </div>
+    </div>
+</main>
+</html>

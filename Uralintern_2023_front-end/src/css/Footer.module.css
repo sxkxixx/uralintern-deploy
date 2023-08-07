@@ -1,0 +1,35 @@
+.main-footer{
+    background: #303030;
+    color:#EBC71D;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    position: absolute;
+    width:100%;
+
+    display:flex;
+}
+
+.ural-intern{
+    margin-left:20px;
+    margin-top: 10px;
+}
+.ural-intern a{
+    text-decoration:none;
+    color: inherit;
+}
+.VK-link{
+    margin-left:auto;
+    text-align: right;
+}
+
+ .VK-link p{
+    margin-bottom:13px;
+    margin-right:35px;
+    margin-top: 10px;
+ }
+ .VK-link a{
+    display: block;
+    margin-right:22px;
+    margin-bottom: 20px;
+ }

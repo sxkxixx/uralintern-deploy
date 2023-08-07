@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #F5F5F5;
+    font-family: Roboto;
+    color: #000000;
+    line-height:18px;
+}
+
+.main-header{
+    background: #303030;
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    height:60px;
+    width:100%;
+    display:flex;
+}
+.nav-icon{
+    margin-left:22px;
+    margin-top:19px;
+}
+.small-logo{
+    margin-left:11px;
+    margin-top:7px;
+
+}
+.profile{
+    display:flex;
+    margin-right:auto;;
+}
+
+.profile img{
+    margin-top:19px;
+    margin-left: 47px;
+}
+
+.profile p{
+    margin-left:15px;
+    margin-top:22px;
+}
+.settings-icon{
+    margin-right:15px;
+    margin-top:15px;
+}
+
+.exit{
+    display:flex;
+    margin-right:30px;
+}
+
+.exit img{
+    margin-top:19px;
+    margin-right: 9px;
+}
+
+.exit p{
+    margin-top:22px;
+}
+
+.team-create-form{
+    position: absolute;
+    background: #303030;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 377px;
+    width: 502px;
+    color: #FDFDFF;
+}
+
+.team-create-form img{
+    margin-top: 19.66px;
+    margin-left: 453.66px;
+}
+
+.team-create-form h2{
+    margin-left: 67px;
+    margin-top: -8px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.fields{
+    margin-left: 51px;
+    margin-top: 31px;
+}
+
+.fields div{
+    margin-bottom: 16px;
+}
+.fields p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.fields input{
+    background: #FDFDFF;
+    border-radius: 10px;
+    width: 356px;
+    height: 38px;
+    padding: 0 22px;
+}
+
+.one-selector{
+background: #FDFDFF;
+border-radius: 10px;
+width: 400px;
+height: 38px;
+padding: 0 22px;
+
+}
+
+.multiple-selector{
+    background: #FDFDFF;
+border-radius: 10px;
+width: 400px;
+height: 100px;
+padding: 0 22px;
+padding-top: 5px;
+}
+
+.button-create{
+    display: flex;
+    margin-top: 66px;
+    margin-bottom: 47px;
+}
+
+.create{
+    background: #FDFDFF;
+    border-radius: 30px;
+    width: 191px;
+    height: 40px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 51px;
+    border:none;
+}
+
+.cancel{
+    background: #FDFDFF;
+    border-radius: 30px;
+    width: 191px;
+    height: 40px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 18px;
+    border:none;
+}
+
+
+main{
+    display:flex;
+
+}
+
+
+.navigation{
+    width:224px;
+    margin-top:53px;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    align-items: center;
+}
+
+.navigation h2{
+    font-size: 22px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding-top:29px;
+    padding-left:16px;
+    font-weight: 400;
+
+}
+
+
+.name-role{
+    height:47px;
+    background: #F9EFE5;;
+    color: #F57C00;
+    font-size: 22px;
+    line-height: 30px;
+
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.name-role-value{
+    height:170px;
+    text-align: center;
+    padding-top:30px;
+}
+
+.roles ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    padding-bottom:100px;
+
+}
+.roles li p{
+    text-align: center;
+    margin-bottom:3px;
+}
+
+
+
+.project{
+    margin-top: 53px;
+    margin-left: 218px
+}
+
+.project-info h2 {
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: 253px;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.info {
+    margin-top: 37px;
+    font-size: 18px;
+}
+
+.info p{
+    font-weight: 400;
+    height: 18px;
+}
+
+.statistics-and-link {
+    margin-top:15px;
+    font-weight: 500;
+    display:flex;
+}
+
+.statistics-and-link p{
+    font-size: 18px;
+    margin-top:2px
+}
+
+.link{
+    margin-left: 6px;
+}
+
+.team-list{
+    margin-top: 31px;
+    margin-left: 230px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.table{
+    margin-top: 34px;
+    display:block;
+}
+
+.command-info-person-head{
+    display: flex;
+    background: rgba(249, 239, 229, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px 0px 0px 0px;
+    width: 626px;
+    height: 33px;
+    align-items: center;
+    color: #F57C00;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.command-info-person{
+    margin-top: 7px;
+    display:flex;
+    margin-bottom:7px;
+    text-align: center;
+    align-items: center;
+    background: rgba(240, 240, 240, 0.4);
+    border-radius: 0px 0px 0px 4px;
+    height: 37px;
+    width: 626px;
+ }
+
+.main-ul{
+    background: rgba(255, 255, 255, 0.4);
+    border-width: 0px 2px 2px 2px;
+    border-style: solid;
+    border-color: #E1E1E1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.team-head{
+    width:330px;
+    text-align: center;
+    align-items: center;
+}
+
+.tutor-head{
+    width:246px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.button{
+    display: flex;
+    margin-top: 52px;
+    margin-left:203.5px;
+}
+
+.team-create{
+    width: 220px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+.hidden-nav{
+    display: none;
+}

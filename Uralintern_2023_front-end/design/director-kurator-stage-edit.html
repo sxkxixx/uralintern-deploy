@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stages-create</title>
+    <link href="css/stage-edit.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <img class='nav-icon' src="images/nav-icon.svg" width="24" height="24" alt="Иконка навигации">
+        <img class='small-logo' src="images/logo_small.svg" width="48" height="48.18" alt="Логотип">
+        <div class="profile">
+            <img src="images/profile.svg" width="24" height="24" alt="Мой профиль">
+            <p>Мой Профиль</p>
+        </div>
+        <img class='settings-icon' src="images/settings-icon.svg" width="32" height="32" alt="Логотип">
+        <div class="exit">
+            <img src="images/exit.svg" width="24" height="24" alt="Выйти">
+            <p>Выйти</p>
+        </div>
+    </header>
+    <div class="stage-create-form">
+      <img src="images/cross-white.svg" width="26.68" height="26.68" alt="Белый крестик">
+      <h2>Редактировать этап</h2>
+      <div class="fields">
+          <div>
+              <p>Название</p>
+              <input type="text">
+          </div>
+          <div>
+              <p>Дата начала/окончания</p>
+              <input type="date">
+          </div>
+          <div>
+              <p>Дата для оценки</p>
+              <input type="date">
+          </div>
+          <div>
+              <p>критерии</p>
+              <select class="multiple-selector" name="form-multiple-selector" id="form-multiple-selector" multiple>
+                  <option value="1">Вовлеченность</option>
+                  <option value="2">Стрессоустойчивость</option>
+              </select>
+          </div>
+      </div>
+      <div class="button-create">
+        <button class="create">Сохранить</button>
+        <button class="cancel">Удалить</button>
+      </div>
+  </div>
+    <main>
+        <div class="navigation">
+            <div class="roles">
+                <div class="name-role supervisor">Руководитель</div>
+                <div class="name-role-value">Нет доступа</div>
+            </div>
+            <div class="roles">
+                <div class="name-role curator">Я - куратор</div>
+                <ul>
+                    <li>
+                        <p>Команда 1</p>
+                    </li>
+                    <li>
+                        <p>Команда n</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="roles">
+                <div class="name-role intern">Я - стажёр</div>
+                <ul>
+                    <li>
+                        <p>Команда 1</p>
+                    </li>
+                    <li>
+                        <p>Команда n</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="stages-main">
+            <div class="stages-info">
+                <h2>Этапы</h2>
+                <div class="info">
+                    <p>Проект: нет данных</p>
+                    <p>Команда: нет данных</p>
+                </div>
+            </div>
+            <div class="table">
+                <ul class="main-ul">
+                        <li class='command-info-person-head'>
+                            <div class="number">Номер</div>
+                            <div class="name">Название</div>
+                            <div class="date-start-end">Дата начала-окончания</div>
+                            <div class="date">Дата для оценки</div>
+                            <div class="status">Статус</div>
+                        </li>
+                        <li class='command-info-person'>
+                                <div class="number">1</div>
+                                <div class="name">Название</div>
+                                <div class="date-start-end">22.01.2023-22.02.2023</div>
+                                <div class="date">22.01.2023- 22.02.2023</div>
+                                <div class="status">
+                                    <div class="item-status">Оцениваемый</div>
+                                    <select class="criteria" name="form-selector1" id="form-selector1">
+                                        <option value="1" disabled>Командность</option>
+                                        <option value="2" disabled>Вовлеченность</option>
+                                        <option value="" disabled selected hidden>Критерии</option>
+                                    </select>
+                                    <img class="link-pen" src="images/pen.svg" width="16" height="16" alt="Карандаш">
+                                </div>
+                        </li>
+                        <li class='command-info-person'>
+                                <div class="number">1</div>
+                                <div class="name">Название</div>
+                                <div class="date-start-end">22.01.2023-22.02.2023</div>
+                                <div class="date">22.01.2023- 22.02.2023</div>
+                                <div class="status">
+                                    <div class="item-status">Оцениваемый</div>
+                                    <select class="criteria" name="form-selector2" id="form-selector2">
+                                        <option value="1" disabled>Командность</option>
+                                        <option value="2" disabled>Вовлеченность</option>
+                                        <option value="" disabled selected hidden>Критерии</option>
+                                    </select>
+                                    <img class="link-pen" src="images/pen.svg" width="16" height="16" alt="Карандаш">
+                                </div>
+                        </li>
+                        <li class='command-info-person'></li>
+                        <li class='command-info-person'></li>
+                </ul>
+            </div>
+            <div class="button">
+                <button class="stage-create">Создать команду</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

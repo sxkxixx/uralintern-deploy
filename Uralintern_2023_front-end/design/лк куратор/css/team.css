@@ -1,0 +1,317 @@
+body{
+    background: #F5F5F5;
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 16px;
+    line-height:18px;
+
+    margin:0;
+}
+
+
+.main-header{
+    background: #303030;  
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    height:60px;
+    width:100%;
+    display:flex;
+}
+.nav-icon{
+    margin-left:22px;
+    margin-top:19px;
+}
+.small-logo{
+    margin-left:11px;
+    margin-top:7px;
+    
+}
+.profile{
+    display:flex;
+    margin-right:auto;;
+}
+
+.profile img{
+    margin-top:19px;
+    margin-left: 47px;
+}
+
+.profile p{
+    margin-left:15px;
+    margin-top:22px;
+}
+.settings-icon{
+    margin-right:15px;
+    margin-top:15px;
+}
+
+.exit{
+    display:flex;
+    margin-right:30px;
+}
+
+.exit img{
+    margin-top:19px;
+    margin-right: 9px;
+}
+
+.exit p{
+    margin-top:22px;
+}
+
+
+
+
+
+
+main{
+    display:flex;
+}
+.navigation{
+    width:224px;
+    margin-top:53px;
+    font-size: 22px;
+    line-height: 30px; 
+    font-weight: 300;
+    align-items: center;
+}
+
+.navigation h2{
+    font-size: 22px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding-top:29px;
+    padding-left:16px;
+    font-weight: 400;
+    
+}
+
+
+.name-role{
+    height:47px;
+    background: #F9EFE5;;
+    color: #F57C00;
+    font-size: 22px;
+    line-height: 30px;
+
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.name-role-value{
+    height:170px;
+    text-align: center;
+    padding-top:30px;
+}
+
+.roles ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    padding-bottom:100px;
+
+}
+.roles li p{
+    text-align: center;
+    margin-bottom:3px;
+}
+
+
+
+
+
+
+.team{
+    width:909px;
+    margin:0 auto;
+    margin-top:53px;
+}
+
+ .team-info h2{
+    margin-bottom:33px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 18px;
+ }
+ .command{
+    margin-bottom:19px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.command span{
+    font-weight: 400;
+}
+.team-info h2{
+    margin-bottom:33px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 18px;
+    text-align: center;
+ }
+
+ .team-info p{
+    margin-bottom:12px;
+    line-height: 18px;
+ }
+ .team-info p:last-child{
+    margin-bottom:49px;
+ }
+
+ .photo{
+    width:60px;
+}
+.text{
+    align-items: center;
+    text-align: center;
+}
+.table{
+    width:337px;
+}
+.forms, .contacts, .education, .table{
+    width:150px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    align-items: center;
+}
+.fio{
+    width:220px;
+    text-align: center;
+    align-items: center;
+}
+
+ .command-info-person{
+    display:flex;
+    height:110px;
+    margin-bottom:3px;
+    background: rgba(240, 240, 240, 0.4);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+ }
+ .command-info-person-head{
+    display: flex;
+    color: #F57C00;
+    border-bottom: solid rgba(0, 0, 0, 0.5) thin;
+    height:40px;
+    align-items: center;
+    margin-bottom:13px;
+    background: rgba(249, 239, 229, 0.6);
+    border-width: 2px 2px 0px 2px;
+    border-style: solid;
+    border-color: rgba(245, 124, 0, 0.6);
+    border-radius: 8px 8px 0px 0px;
+    box-shadow:0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.command-info-person-head .text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+
+
+ .team ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom:100px;
+}
+.command-info{
+    display:block;
+    margin:0 auto;
+}
+
+
+.command-info img{
+    border-radius: 80px;
+}
+.give-a-mark{
+    background: #F57C00;
+    border-radius: 30px;
+    width: 240px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border:none;
+}
+
+/*.team-numbers{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 18px;
+    margin-left:408px;
+}*/
+.buttons{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+}
+.get-stages{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    width: 192px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+
+
+
+table{
+    width:500px;
+    padding:0;
+    margin:0 auto;  
+    border-spacing: 0px; 
+}
+th{
+    background: #494949;
+    width:250px;
+    color: #FFFFFF;
+    padding:0;
+    margin:0;
+    border-bottom: 1px solid rgba(232, 232, 232, 0.6);
+    border-right: 1px solid rgba(232, 232, 232, 0.6);
+    height:35px;
+    font-style: normal;
+    font-weight: 400;
+}
+td{
+    width:250px;
+    margin:0;
+    padding:0;
+    border-right:1px solid rgba(232, 232, 232, 0.6);
+    border-bottom: 1px solid rgba(232, 232, 232, 0.6);
+    height:35px;
+    text-align: center;
+}
+th:first-child, td:first-child{
+    border-left: 1px solid rgba(232, 232, 232, 0.6);
+}
+
+
+
+.command-chat{
+    width: 168px;
+    height: 16px;
+    background: rgba(217, 217, 217, 0.6);
+    border-radius: 10px;
+}
+.hidden-nav{
+    display: none;
+}

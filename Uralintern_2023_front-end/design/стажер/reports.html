@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Marks reports</title>
+    <link href="css/styles-reports.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <img class='nav-icon' src="images/nav-icon.svg" width="24" height="24" alt="Иконка навигации">
+        <img class='small-logo' src="images/logo_small.svg" width="48" height="48.18" alt="Логотип">
+        <div class="profile">
+            <img src="images/profile.svg" width="24" height="24" alt="Мой профиль">
+            <p>Мой Профиль</p>
+        </div>
+        <img class='settings-icon' src="images/settings-icon.svg" width="32" height="32" alt="Логотип">
+        <div class="exit">
+            <img src="images/exit.svg" width="24" height="24" alt="Выйти">
+            <p>Выйти</p>
+        </div>
+    </header>
+    <main>
+        <div class="navigation">
+            <div class="roles">
+                <div class="name-role supervisor">Руководитель</div>
+                <div class="name-role-value">Нет доступа</div>
+            </div>
+            <div class="roles">
+                <div class="name-role curator">Я - куратор</div>
+                <ul>
+                    <li>
+                        <p>Команда 1</p>
+                    </li>
+                    <li>
+                        <p>Команда n</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="roles">
+                <div class="name-role intern">Я - стажёр</div>
+                <ul>
+                    <li>
+                        <p>Команда 1</p>
+                    </li>
+                    <li>
+                        <p>Команда n</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="report-info">
+            <h1>Отчёты</h1>
+            <h2>Общая</h2>
+                <canvas id="commonChart"></canvas>
+            <h2>Самооценка</h2>
+                <canvas id="myChart"></canvas>
+            <h2>Оценка команды</h2>
+                <canvas id="commandChart"></canvas>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="report.js"></script>
+</body>
+</html>

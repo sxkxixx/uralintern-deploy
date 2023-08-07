@@ -1,0 +1,130 @@
+.span-role{
+    display: grid;
+    place-content: center;
+}
+
+.span-team{
+    display: grid;
+    place-content: center;
+    margin-top: 10px;
+}
+
+.hr{
+    width: 100%;
+    opacity: 60%;
+}
+
+
+.form{
+    top:225px;
+    left:900px;
+    z-index: 1300;
+    position:absolute;
+    min-width: 207px;
+    background: #FDFDFF;
+  --form-control-color: #464646;
+  --form-control-disabled: #959495;
+}
+
+
+body {
+  margin: 0;
+}
+
+.form {
+    border-radius: 10px;
+  place-content: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.form-control {
+    margin-left: 15%;
+    font-family: Roboto;
+    font-size: 14px;
+
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+}
+
+.form-control + .form-control {
+  margin-top: 1em;
+}
+
+form:focus{
+    background-color: red;
+}
+
+
+.inp {
+
+    cursor: pointer;
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  /* Remove most all native input styles */
+  appearance: none;
+  /* For iOS < 15 */
+  background-color: var(--form-background);
+  /* Not removed via appearance */
+  margin: 0;
+
+  font: inherit;
+  color: #464646;
+  width: 1em;
+  height: 1em;
+  border: 2px solid #464646;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+
+  display: grid;
+  place-content: center;
+}
+
+.inp::before {
+  content: "";
+  width: 0.45em;
+  height: 0.45em;
+  clip-path: polygon(13% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  /* Windows High Contrast Mode */
+  background-color: CanvasText;
+}
+
+.inp:checked::before {
+  transform: scale(1);
+}
+
+.inp:disabled {
+  --form-control-color: var(--form-control-disabled);
+
+  color: var(--form-control-disabled);
+  cursor: not-allowed;
+}
+
+.text_inp{
+    margin-left: 15%;
+    max-width: 168px;
+    max-height: 24px;
+    background: rgba(240, 240, 240, 0.4);
+    box-shadow: 0px 4px 4px rgba(69, 69, 69, 0.25);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+
+
+.find:hover{
+  cursor: pointer;
+}
+
+.triangle{
+  position: absolute;
+  top:-20px;
+  left:45%;
+  z-index: 200;
+}

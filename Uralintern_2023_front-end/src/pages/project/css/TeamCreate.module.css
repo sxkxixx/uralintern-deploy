@@ -1,0 +1,95 @@
+.team-create-form{
+    position: absolute;
+    background: #303030;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 377px;
+    width: 502px;
+    color: #FDFDFF;
+}
+
+.team-create-form img{
+    margin-top: 19.66px;
+    margin-left: 453.66px;
+}
+
+.team-create-form h2{
+    margin-left: 125px;
+    margin-top: -8px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.fields{
+    margin-left: 51px;
+    margin-top: 31px;
+}
+
+.fields div{
+    margin-bottom: 16px;
+}
+.fields p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.fields input{
+    background: #FDFDFF;
+    border-radius: 10px;
+    width: 356px;
+    height: 38px;
+    padding: 0 22px;
+}
+
+.one-selector{
+background: #FDFDFF;
+border-radius: 10px;
+width: 400px;
+height: 38px;
+padding: 0 22px;
+
+}
+
+.multiple-selector{
+    background: #FDFDFF;
+border-radius: 10px;
+width: 400px;
+height: 100px;
+padding: 0 22px;
+padding-top: 5px;
+}
+
+.button-create{
+    display: flex;
+    margin-top: 66px;
+    margin-bottom: 47px;
+}
+
+.create{
+    background: #FDFDFF;
+    border-radius: 30px;
+    width: 191px;
+    height: 40px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 51px;
+    border:none;
+}
+
+.cancel{
+    background: #FDFDFF;
+    border-radius: 30px;
+    width: 191px;
+    height: 40px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 18px;
+    border:none;
+}

@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+}
+
+.report-info-h1{
+    font-weight: 600;
+font-size: 28px;
+line-height: 18px;
+text-align: center;
+margin:0;
+
+margin-bottom:33px;
+}
+
+.report-info-h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: #F57C00;
+    margin-top: 40px;
+    margin-bottom:10px;
+}
+
+
+.report-info{
+    width:574px;
+    margin-left: 30%;
+    margin-top:51px;
+    align-items: center;
+    text-align: center;
+}

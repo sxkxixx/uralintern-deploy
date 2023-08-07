@@ -1,0 +1,225 @@
+.team{
+    width:899px;
+    margin-left: calc(50% - 420px);
+    margin-top:53px;
+    margin-bottom: 80px;
+}
+.command{
+    margin-bottom:19px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.command span{
+    font-weight: 400;
+}
+
+ .team-info h2{
+    margin-bottom:33px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 18px;
+    text-align: center;
+ }
+
+ .team-info p{
+    margin-bottom:12px;
+    line-height: 18px;
+ }
+ .team-info p:last-child{
+    margin-bottom:40px;
+ }
+ .photo{
+    width:120px;
+ }
+ .text{
+    align-items: center;
+    text-align: center;
+}
+.contacts, .education, .fio{
+    width:259px;
+    text-align: center;
+    align-items: center;
+}
+/*.fio{
+    width:220px;
+    text-align: center;
+    align-items: center;
+}*/
+ .command-info-person{
+    display:flex;
+    height:152px;
+    margin-bottom:3px;
+    text-align: center;
+    background: rgba(240, 240, 240, 0.4);
+    align-items: center;
+    width:899px;
+ }
+ .command-info-person:last-child{
+    margin-bottom: 103px;
+ }
+ .command-info-person-head{
+    display: flex;
+    color: #F57C00;
+    height:40px;
+    align-items: center;
+    text-align: center;
+    margin-bottom:15px;
+    background: rgba(249, 239, 229, 0.6);
+    border-width: 2px 2px 0px 2px;
+    border-style: solid;
+    border-color: rgba(245, 124, 0, 0.6);
+    border-radius: 8px 8px 0px 0px;
+    box-shadow:0 4px 4px rgba(0, 0, 0, 0.25);
+ }
+ .command-info-person-head .text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+.text{
+    align-items: center;
+    text-align: center;
+    line-height: 18px;
+    margin-left:10px;
+}
+ .team ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.command-info{
+    display:block;
+    margin:0 auto;
+}
+
+.command-info img{
+    border-radius: 80px;
+}
+.command-info .pen-pic{
+    border-radius:0;
+    margin-left:7px;
+    
+}
+.give-a-mark{
+    background: #F57C00;
+    border-radius: 30px;
+    width: 240px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border:none;
+}
+
+.get-report{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    width: 192px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.give-a-mark:hover{
+    cursor: pointer;
+    background-color: #F9A425;
+}
+
+.give-a-mark:active{
+    cursor: pointer;
+    background-color: #E86A00;
+}
+
+.get-report:hover{
+    cursor: pointer;
+    background-color: #B0B0B0;
+    color: white;
+}
+
+.get-report:active{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+
+.buttons{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+}
+
+
+
+.select-role{
+    width:168px;
+    height:24px;
+    background: rgba(217, 217, 217, 0.8);
+    border-radius: 10px;
+}
+.X-pic, .Y-pic{
+    margin-left:7px;
+    padding: 6px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.X-pic:hover{
+    cursor: pointer;
+    background-color: #E4E4E4;
+}
+
+.X-pic:active{
+    background-color: #CACACA;
+}
+
+
+.Y-pic:hover{
+    background-color: rgba(249, 164, 37, 0.4);
+    cursor: pointer;
+}
+.Y-pic:active{
+    background-color: rgba(249, 164, 37, 0.6);
+}
+
+
+
+
+.pen-pic{
+    display: inline-flex;;
+    width: 16px;
+    height: 16px;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.XY-pic:hover{
+
+    cursor: pointer;
+    background-color: #E4E4E4;
+}
+.pen-pic:hover{
+
+    cursor: pointer;
+    background-color: #E4E4E4;
+}
+
+.pen-pic:active{
+
+    background-color: #CACACA;
+}
+
+
+.opt{
+    cursor: pointer;
+}
+
+

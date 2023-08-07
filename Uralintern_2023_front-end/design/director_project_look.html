@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Project</title>
+    <link href="css/team-create.css" rel="stylesheet">
+</head>
+<body>
+  <header class="main-header">
+        <img class='nav-icon' src="images/nav-icon.svg" width="24" height="24" alt="Иконка навигации">
+        <img class='small-logo' src="images/logo_small.svg" width="48" height="48.18" alt="Логотип">
+        <div class="profile">
+            <img src="images/profile.svg" width="24" height="24" alt="Мой профиль">
+            <p>Мой Профиль</p>
+        </div>
+        <img class='settings-icon' src="images/settings-icon.svg" width="32" height="32" alt="Логотип">
+        <div class="exit">
+            <img src="images/exit.svg" width="24" height="24" alt="Выйти">
+            <p>Выйти</p>
+        </div>
+  </header>
+    <main>
+        <div class="navigation">
+            <div class="roles">
+                <div class="name-role supervisor">Руководитель</div>
+                <div class="name-role-value">Нет доступа</div>
+            </div>
+            <div class="roles">
+                <div class="name-role curator">Я - куратор</div>
+                <ul>
+                    <li>
+                        <p>Команда 1</p>
+                    </li>
+                    <li>
+                        <p>Команда n</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="roles">
+                <div class="name-role intern">Я - стажёр</div>
+                <ul>
+                    <li>
+                        <p>Команда 1</p>
+                    </li>
+                    <li>
+                        <p>Команда n</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-info">
+                <h2>Проект "n"</h2>
+                <div class="info">
+                    <p>Дата начала-окончания проекта: 22.12.2023 - 30.12.2023</p>
+                    <div class="statistics-and-link">
+                        <p class="statistics-link">Перейти к статистике моих стажёров</p>
+                        <img class="link" src="images/link.svg" width="24" height="24" alt="Ссылка статистика стажёров">
+                    </div>
+                </div>
+            </div>
+            <h2 class="team-list">Список команд:</h2>
+            <div class="table">
+                <ul class="main-ul">
+                        <li class='command-info-person-head'>
+                            <div class="team-head">Команда</div>
+                            <div class="tutor-head">Куратор</div>
+                            <div class="link-pen"></div>
+                        </li>
+                        <li class='command-info-person'>
+                                <div class="team-head">Команда 2</div>
+                                <div class="tutor-head">Куратор 2</div>
+                                <img class="link-pen" src="images/pen.svg" width="16" height="16" alt="Карандаш">
+                        </li>
+                        <li class='command-info-person'>
+                                <div class="team-head">Команда 2</div>
+                                <div class="tutor-head">Куратор 2</div>
+                                <img class="link-pen" src="images/pen.svg" width="16" height="16" alt="Карандаш">
+                        </li>
+                </ul>
+            </div>
+            <div class="button">
+                <button class="team-create">Создать команду</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

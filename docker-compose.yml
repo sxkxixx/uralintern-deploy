@@ -1,0 +1,54 @@
+version: "3"
+
+
+services:
+  backend:
+    restart: always
+    build: ./Uralintern_2022
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    env_file: .env.backend_deploy
+    depends_on:
+        db:
+          condition: service_healthy
+    networks:
+       - db-back
+       - apps
+
+  db:
+    restart: always
+    image: postgres:15-alpine
+    volumes:
+      - data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=sxkxixx
+      - POSTGRES_PASSWORD=sxkxixx
+      - POSTGRES_DB=uralintern_db
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "sxkxixx", "-d", "uralintern_db"]
+      interval: 5s
+      retries: 15
+    networks:
+      - db-back
+
+  frontend:
+      build:
+          context: ./Uralintern_2023_front-end
+          args:
+              REACT_APP_API_URL: http://localhost:80
+      ports:
+          - "80:80"
+      networks:
+          - apps
+      depends_on:
+          - backend
+
+networks:
+  db-back:
+  apps:
+
+volumes:
+  data:

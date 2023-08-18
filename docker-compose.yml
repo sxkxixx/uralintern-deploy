@@ -8,7 +8,7 @@ services:
     command: python manage.py runserver 0.0.0.0:8000
     ports:
       - "8000:8000"
-    env_file: .env.backend_deploy
+    env_file: .env
     depends_on:
         db:
           condition: service_healthy
@@ -22,9 +22,9 @@ services:
     volumes:
       - data:/var/lib/postgresql/data
     environment:
-      - POSTGRES_USER=sxkxixx
-      - POSTGRES_PASSWORD=sxkxixx
-      - POSTGRES_DB=uralintern_db
+      - POSTGRES_USER=<Имя юзера БД>
+      - POSTGRES_PASSWORD=<Пароль юзера БД>
+      - POSTGRES_DB=<Название базы данных>
     ports:
       - "5432:5432"
     healthcheck:
